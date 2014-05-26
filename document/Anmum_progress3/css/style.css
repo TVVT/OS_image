@@ -601,3 +601,23 @@ a.wechat {
 
 }
 
+
+/* image upload */
+.ub_upload{
+	position: relative;
+}
+.icon_add{
+	z-index: 10;
+}
+.file_upload_btn{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 90px;
+	left:50%;
+	margin-left: -50px;
+	z-index: 100;
+	display: block;
+	opacity: 0;
+}
+
