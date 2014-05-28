@@ -1,0 +1,38 @@
+input[type="file"]{
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.container{
+    width: 279px;
+    margin: 0 auto;
+}
+
+canvas{
+    width: 275px;
+    height: 254px;
+    border: 2px solid #ae71c2; 
+}
+
+.bubbles_box{
+    height: 50px;
+}
+
+.bubble{
+    height: 50px;
+    display: inline-block;
+    -webkit-box-sizing:border-box;
+}
+
+
+.bubble:hover,.bubble:active,.bubble.active{
+    border:1px solid red;
+}
+
+.bubbles_box img{
+    height: 100%;
+    width: auto;
+}
+
+
